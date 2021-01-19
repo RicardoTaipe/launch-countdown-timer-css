@@ -1,0 +1,104 @@
+:root {
+  /*Primary*/
+  --gray-blue: hsl(237, 18%, 59%);
+  --soft-red: hsl(345, 95%, 68%);
+
+  /*Neutral*/
+  --white: hsl(0, 0%, 100%);
+  --blue: hsl(236, 21%, 26%);
+  --dark-blue: hsl(235, 16%, 14%);
+  --darker-blue: hsl(234, 17%, 12%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/bg-stars.svg");
+  background-color: var(--dark-blue);
+  font-family: "Red Hat Text", Courier, monospace;
+  font-size: 0.9rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__title {
+  text-align: center;
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: medium;
+  letter-spacing: 0.2rem;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--soft-red);
+  font-size: 4rem;
+}
+
+footer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/pattern-hills.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center bottom;
+  width: 100%;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.icons__item {
+  padding: 1rem;
+}
+.icons__image:hover {
+  fill: var(--soft-red);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+h6 {
+  /*Primary*/
+  color: hsl(237, 18%, 59%);
+  color: hsl(345, 95%, 68%);
+
+  /*Neutral*/
+
+  color: hsl(0, 0%, 100%);
+  color: hsl(236, 21%, 26%);
+  color: hsl(235, 16%, 14%);
+  color: hsl(234, 17%, 12%);
+}
