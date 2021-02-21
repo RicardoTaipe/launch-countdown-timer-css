@@ -1,5 +1,7 @@
 # This is my solution to Frontend Mentor - Launch countdown timer (Challenge)
 
+## Live Demo https://ricardotaipe.github.io/launch-countdown-timer-css/index.html
+
 ![Design preview for the Launch countdown timer coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
